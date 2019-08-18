@@ -25,4 +25,8 @@ public class User {
 	private Long id;
 	private String cedula;
 	private String nombres;
+
+	public User(String cedula) {
+		this.cedula = cedula;
+	}
 }
